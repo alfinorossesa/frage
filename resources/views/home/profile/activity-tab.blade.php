@@ -1,0 +1,7 @@
+<a href="{{ route('user.activity', [$user->id, $user->username]) }}" class="d-block mb-2 {{ request()->route()->getName() == 'user.activity' ? 'active' : '' }}">Summary</a>
+<a href="{{ route('user.question', [$user->id, $user->username]) }}" class="d-block mb-2 {{ request()->route()->getName() == 'user.question' ? 'active' : '' }}">Question</a>
+<a href="{{ route('user.answer', [$user->id, $user->username]) }}" class="d-block mb-2 {{ request()->route()->getName() == 'user.answer' ? 'active' : '' }}">Answer</a>
+<a href="{{ route('user.comment', [$user->id, $user->username]) }}" class="d-block mb-2 {{ request()->route()->getName() == 'user.comment' ? 'active' : '' }}">Comment</a>
+<a href="{{ route('user.votes', [$user->id, $user->username]) }}" class="d-block mb-2 {{ request()->route()->getName() == 'user.votes' ? 'active' : '' }}">Votes</a>
+<a href="{{ route('user.likesQuestion', [$user->id, $user->username]) }}" class="d-block mb-2 {{ request()->route()->getName() == 'user.likesQuestion' ? 'active' : '' }}">Likes Question</a>
+<a href="{{ route('user.likesAnswer', [$user->id, $user->username]) }}" class="d-block mb-2 {{ request()->route()->getName() == 'user.likesAnswer' ? 'active' : '' }}">Likes Answer</a>

@@ -1,0 +1,1378 @@
+/* ========================== */
+/* ========== body ========== */
+/* ========================== */
+body{
+    background-color: white;
+}
+
+body a{
+    color: blue;
+}
+
+
+/* ============================ */
+/* ========== navbar ========== */
+/* ============================ */
+.navbar{
+    padding: 0;
+    /* border-top: 3px solid rgb(253, 127, 127); */
+    border-top: 3px solid #17A2B8;
+    box-shadow: 0px 1px 5px rgba(128, 128, 128, 0.267);
+}
+
+.navbar .custom-menu{
+    display: none;
+}
+
+.navbar-brand{
+    color: #17A2B8;
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.search{
+    padding: 5px 0;
+}
+
+.search input{
+    border: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+.search input:focus{
+    border: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+.nav-item{
+    padding: 0 0 0 5px;
+}
+
+.nav-item .login{
+    font-size: 14px;
+    padding: 2px 1px 4px 1px;
+}
+
+.nav-item .signup{
+    font-size: 14px;
+    padding: 2px 1px 4px 1px;
+}
+
+.nav-item .logout{
+    padding-top: 8px;
+}
+
+.nav-item .logout button{
+    font-size: 12px;
+    padding: 2px 5px 4px 5px;
+}
+
+.nav-item a.user{
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: #17A2B8;
+}
+
+.nav-item a.user:hover{
+    color: #0000FF;
+}
+
+.nav-item a.dropdown-item{
+    font-size: 14px;
+}
+
+.nav-item button.btn.dropdown-item{
+    font-size: 14px;
+    color: red;
+}
+
+
+
+/* ============================= */
+/* ========== sidebar ========== */
+/* ============================= */
+#sidebar {
+  border-right: 2px solid rgb(224, 222, 222);
+  padding: 0 0 0 5px;
+  background-color: white;
+}
+
+#sidebar ul li {
+    font-size: 13px; 
+}
+
+#sidebar ul li > ul {
+    margin-left: 10px; 
+}
+
+#sidebar ul li > ul li {
+    font-size: 14px; 
+}
+
+#sidebar ul li a {
+    padding: 5px 7px;
+    display: block;
+    color: gray;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+#sidebar ul li a:hover {
+    color: #000; 
+    font-weight: 600;
+    background-color: rgba(204, 204, 204, 0.144);
+}
+
+#sidebar ul li.active > a {
+    background: rgba(204, 204, 204, 0.39);
+    color: black; 
+    font-weight: bold;
+    border-right: 3px solid #17A2B8;
+}
+
+
+
+/* ============================= */
+/* ========== content ========== */
+/* ============================= */
+.content-body{
+    padding-top: 50px;
+}
+
+
+
+/* ========================= */
+/* ========= login ========= */
+/* ========================= */
+.login{
+    background-color: rgba(214, 217, 220, 0.158);
+}
+
+.google-auth{
+    border: 1px solid hsl(210,8%, 85%);
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px 0;
+}
+
+.google-auth p{
+    color: #808080;
+    margin: 0;
+}
+
+.github-auth{
+    border: 1px solid hsl(210,8%, 85%);
+    background-color: #2F3337;
+    border-radius: 4px;
+    padding: 5px 0;
+}
+
+.github-auth p{
+    color: white;
+    margin: 0;
+}
+
+.facebook-auth{
+    border: 1px solid hsl(210,8%, 85%);
+    background-color: #385499;
+    border-radius: 4px;
+    padding: 5px 0;
+}
+
+.facebook-auth p{
+    color: white;
+    margin: 0;
+}
+
+.login-form{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.login-form label{
+    margin-bottom: 2px;
+}
+
+.login-form input:focus{
+    border: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+.signup-form{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.signup-form label{
+    margin-bottom: 2px;
+}
+
+.signup-form input:focus{
+    border: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+
+
+
+/* ============================= */
+/* ========== home ========== */
+/* ============================= */
+.home{
+    padding-top: 120px;
+}
+
+.home h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #17A2B8;
+}
+
+.home p{
+    font-size: 14px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.home a{
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.home .animated-text{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #1394a8;
+}
+
+.home .home-line{
+    border: 4px solid #17a3b8c9;
+    border-radius: 30px;
+}
+
+.home .home-info{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.home .home-info .home-info-detail{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.466);
+}
+
+.home-image img{
+    width: 400px;
+}
+
+
+
+
+/* ============================== */
+/* ========== question ========== */
+/* ============================== */
+.question-show{
+    margin-bottom: 20px;
+}
+
+.question-content{
+    padding: 15px 0;
+    border-top: 1px solid rgb(218, 216, 216);
+    text-align: justify;
+}
+
+.question-content .detail-question{
+    text-align: right;
+    padding-top: 10px;
+}
+
+.question-content .detail-question p:nth-child(2){
+    margin: 4px 0;
+}
+
+.question-content .answer{
+    border: 0.5px solid #48A868;
+    padding: 2px 5px;
+}
+
+.question-content .best-answer{
+    background-color: #48A868;
+    color: white;
+    border: none;
+}
+
+.question-content .fa-solid{
+    color: white
+}
+
+.question-content .user-info p.trophy.badges i.fa-solid{
+    font-size: 12px;
+}
+
+.question-total{
+    font-size: 16px;
+    color: black;
+}
+
+.question-ask{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-result code{
+    font-size: 18px;
+    color: blue;
+    background-color: #1d9cf013;
+}
+
+.question-filter{
+    font-size: 14px;
+}
+
+.question-filter a{
+    padding: 0 10px;
+    color: rgb(119, 119, 119);
+}
+
+.question-filter a:hover{
+    font-weight: 600;
+    color: #1394a8;
+    border-bottom: 2px solid #17A2B8;
+}
+
+.question-filter a.active{
+    font-weight: 600;
+    color: #1394a8;
+    border-bottom: 2px solid #17A2B8;
+}
+
+.question-title{
+    font-size: 20px;
+}
+
+.question-title a{
+    color: rgb(0, 0, 255);
+}
+    
+.question-title a:hover{
+    color: rgb(101, 101, 255);
+}
+
+.question-votes{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.question-votes button {
+    border: none;
+    background-color: transparent;
+}
+
+.question-votes p:first-child{
+    cursor: pointer;
+}
+
+.question-votes p:last-child{
+    cursor: pointer;
+}
+
+.question-votes .fa-solid{
+    color: rgba(128, 128, 128, 0.575);
+}
+
+.votes-up .fa-solid {
+    color: rgb(6, 211, 6);
+}
+
+.votes-down .fa-solid {
+    color: rgb(228, 78, 67);
+}
+
+.votes-not-selected .fa-solid{
+    color: rgba(100, 98, 98, 0.219);
+    cursor: not-allowed;
+}
+
+.question-tag{
+    font-size: 12px;
+    color: blue;
+}
+
+.question-tag a{
+    display: inline;
+    padding: 2px 5px 4px 5px;
+    border-radius: 2px;
+    background-color: #1d9cf013;
+}
+
+.question-main-title{
+    border-bottom: 1px solid rgb(218, 216, 216);
+    padding-bottom: 10px;
+}
+
+.question-main-title p{
+    display: inline;
+    padding-right: 20px;
+}
+
+.question-option .dropdown{
+    cursor: pointer;
+}
+
+.question-option a.dropdown-item{
+    font-size: 14px;
+}
+
+.question-option a.delete-question.dropdown-item{
+    font-size: 14px;
+    color: red;
+}
+
+.question-option .fa-solid{
+    font-size: 20px;
+}
+
+.question-option .fa-regular{
+    font-size: 20px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.question-option .fa-solid.fa-heart{
+    font-size: 20px;
+    padding-top: 12px;
+    cursor: pointer;
+    color: red;
+}
+
+.question-main{
+    text-align: justify;
+}
+
+.question-user{
+    padding: 7px 7px;
+    background-color: rgb(242, 249, 253);
+    border: 1px solid rgb(180, 206, 244);
+}
+
+.question-user p.trophy.badges i.fa-solid{
+    font-size: 12px;
+}
+
+.question-share{
+    padding-left: 80px;
+}
+
+.question-report{
+    padding-left: 65px;
+}
+
+.form-control{
+    border: 1px solid rgb(206, 206, 206);
+}
+
+
+
+
+/* ============================================ */
+/* ========== summernote text editor ========== */
+/* ============================================ */
+.note-editor .dropdown-toggle::after{
+    all: unset;
+}
+
+.note-editor .note-dropdown-menu{
+    box-sizing: content-box;
+}
+
+.note-editor .note-modal-footer{
+    box-sizing: content-box;
+}
+
+
+
+/* ================================== */
+/* ========== ask question ========== */
+/* ================================== */
+.ask-question input:focus{
+    border: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+.ask-question-tag{
+    padding: 2px 5px 4px 5px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    color: blue;
+    background-color: #1d9cf013;
+    cursor: pointer;
+}
+
+.tag-result .tag-span .fa-solid{
+    padding-right: 5px;
+    color: rgb(253, 116, 116);
+}
+
+.ask-description-label{
+    margin: 0;
+    padding-bottom: 5px;
+    color: rgb(167, 165, 165);
+    font-size: 12px;
+}
+
+.your-question{
+    padding: 20px 0;
+    border-top: 1px solid rgb(218, 216, 216);
+}
+
+.most-used-tags .card{
+    margin-top: 75px;
+}
+
+.most-used-tags .ask{
+    margin-top: 0;
+}
+
+.most-used-tags .card.edit{
+    margin-top: 35px;
+}
+
+
+
+/* ============================ */
+/* ========== answer ========== */
+/* ============================ */
+.answer-count p{
+    font-size: 20px;
+    color: black;
+}
+
+.answer-main{
+    border-top: 1px solid rgb(218, 216, 216);
+    text-align: justify;
+}
+
+.answer-option .dropdown{
+    cursor: pointer;
+}
+
+.answer-option a.dropdown-item{
+    font-size: 14px;
+}
+
+.answer-option a.delete-answer.dropdown-item{
+    font-size: 14px;
+    color: red;
+}
+
+.answer-option .fa-solid{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.answer-option .fa-solid.fa-heart{
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+.answer-option .fa-regular{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.answer-votes{
+    text-align: center;
+}
+
+.answer-votes button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.answer-votes p:first-child{
+    cursor: pointer;
+}
+
+.answer-votes p:last-child{
+    cursor: pointer;
+}
+
+.answer-votes .fa-solid{
+    color: rgba(128, 128, 128, 0.575);
+}
+
+.answer-votes .votes-up .fa-solid {
+    color: rgb(6, 211, 6);
+}
+
+.answer-votes .votes-down .fa-solid {
+    color: rgb(228, 78, 67);
+}
+
+.answer-votes .votes-not-selected .fa-solid{
+    color: rgba(100, 98, 98, 0.219);
+    cursor: not-allowed;
+}
+
+.answer-votes .best-answer{
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.answer-votes .best-answer .check-mark .fa-solid{
+    color: rgb(6, 211, 6);
+}
+
+.answer-user{
+    padding: 7px 7px;
+}
+
+.answer-user p.trophy.badges i.fa-solid{
+    font-size: 12px;
+}
+
+.comment p.trophy.badges i.fa-solid{
+    font-size: 12px;
+}
+
+.answer-comment{
+    padding: 0  0 30px 50px;
+}
+
+.answer-comment form .comment-form{
+    margin-bottom: 12px;
+}
+
+.answer-comment textarea {
+    padding:5px;
+    width:100%;
+    display:block;
+    border: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+.answer-comment textarea::placeholder{
+    color: rgba(170, 170, 170, 0.849);
+}
+
+.answer-comment .input-comment:focus {
+    outline: none !important;
+    border: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+.answer-report-link{
+    padding-left: 80px;
+}
+
+
+.related .question-interested .top-question a{
+    padding-left: 4px;
+}
+
+
+/* ======================== */
+/* ======== report ======== */
+/* ======================== */
+
+.report{
+    background-color: hsl(358,75%,97%);
+    border: 1px solid hsl(358,74%,83%);
+}
+
+.report textarea {
+    padding:5px;
+    height: 150px;
+    width:100%;
+    display:block;
+    border: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+.report textarea::placeholder{
+    color: rgba(170, 170, 170, 0.849);
+}
+
+.report .input-report:focus {
+    outline: none !important;
+    border: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+
+
+
+/* ================================= */
+/* ========== your answer ========== */
+/* ================================= */
+.your-answer{
+    padding: 20px 0;
+    border-top: 1px solid rgb(218, 216, 216);
+}
+
+.your-answer .form-control{
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.your-answer .signup-or-login h5{
+    padding-bottom: 16px;
+}
+
+.your-answer .login-button{
+    display: block;
+    margin-bottom: 16px;
+}
+
+.your-answer .login-button.google{
+    display: block;
+    border: 1px solid rgb(199, 199, 199);
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px 0;
+    text-align: center;
+    color: #808080;
+}
+
+.your-answer .login-button.github{
+    display: block;
+    border: 1px solid hsl(210,8%, 85%);
+    background-color: #2F3337;
+    border-radius: 4px;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+}
+
+.your-answer .login-button.facebook{
+    display: block;
+    border: 1px solid hsl(210,8%, 85%);
+    background-color: #385499;
+    border-radius: 4px;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+}
+
+.your-answer .as-guest .name{
+    margin-bottom: 4px;
+}
+
+.your-answer .as-guest .email{
+    margin-bottom: 16px;
+}
+
+
+/* ============================= */
+/* ========== comment ========== */
+/* ============================= */
+.comment{
+    border-top: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+.comment:last-of-type{
+    border-bottom: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+.comment a{
+    font-size: 15px;
+}
+
+.comment span{
+    font-size: 11px;
+}
+
+.related .card{
+    margin-top: 30px;
+}
+
+.answer-comment .comment{
+    padding: 16px 0;
+}
+
+.answer-comment h6{
+    margin-bottom: 24px;
+}
+
+.answer-comment form{
+    margin-top: 48px;
+}
+
+
+/* ========================= */
+/* ========== tag ========== */
+/* ========================= */
+.tags{
+    margin-top: 48px;
+}
+
+.tags .this-tag{
+    margin-bottom: 24px;
+}
+
+.tag{
+    padding: 10px;
+}
+
+.tag .tag-name{
+    padding: 3px 8px;
+    color: rgb(75, 75, 250);
+    background-color: #1d9cf013;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tag .question-count{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.tag-title .tag-name{
+    padding: 3px 8px;
+    color: rgb(75, 75, 250);
+    background-color: #1d9cf013;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: default;
+}
+
+
+
+/* ============================ */
+/* ========== profile ========== */
+/* ============================ */
+.profile-index .profile-activity-button{
+    margin: 24px 0;
+}
+
+.profile-activity .profile-activity-button{
+    margin: 24px 0;
+}
+
+.profile-name{
+    margin-top: 30px;
+}
+
+.update-profile-link{
+    padding-left: 12px;
+    color: #17A2B8;
+}
+
+.update-profile input:focus{
+    border: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+.update-profile-box .change-picture-button{
+    padding-left: 8px;
+}
+
+.change-password input:focus{
+    border: 0.5px solid rgba(170, 170, 170, 0.397);
+}
+
+.error-change-password{
+    background-color: hsl(358,75%,97%);
+    border: 1px solid hsl(358,74%,83%);
+}
+
+.badges .gold.fa-solid{
+    font-size: 80px;
+    color: hsl(48,100%,50%);
+}
+
+.badges .silver.fa-solid{
+    font-size: 80px;
+    color: hsl(210,6%,72%);
+}
+
+.badges .bronze.fa-solid{
+    font-size: 80px;
+    color: hsl(28,38%,67%);
+}
+
+.trophy .rank-1.fa-solid{
+    font-size: 70px;
+    color: hsl(48,100%,50%);
+}
+
+.trophy .rank-2.fa-solid{
+    font-size: 70px;
+    color: hsl(210,6%,72%);
+}
+
+.trophy .rank-3.fa-solid{
+    font-size: 70px;
+    color: hsl(28,38%,67%);
+}
+
+.trophy .medal.fa-solid{
+    font-size: 70px;
+    color: hsl(358,70%,70%);
+    padding-left: 2px;
+}
+
+.badges-detail .fa-solid{
+    color: rgb(6, 211, 6);
+}
+
+.top-question-box p{
+    padding-top: 16px;
+}
+
+.top-question{
+    padding-top: 20px;
+}
+
+.top-question a{
+    padding-left: 8px;
+}
+
+.top-question p{
+    display: inline;
+}
+
+.top-question .score{
+    padding: 3px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.top-question .score.votes-up{
+    padding: 3px 15px;
+    color: #48A868;
+    border: 1px solid #48A868;
+}
+
+.top-question .score.votes-down{
+    padding: 3px 15px;
+    color: rgb(228, 78, 67);
+    border: 1px solid rgb(228, 78, 67);
+}
+
+.top-question .score.solved{
+    padding: 3px 15px;
+    background-color: #48A868;
+    color: white;
+}
+
+.top-answer-box p{
+    padding-top: 16px;
+}
+
+.top-answer{
+    padding-top: 20px;
+}
+
+.top-answer p{
+    display: inline;
+}
+
+.top-answer a{
+    padding-left: 8px;
+}
+
+.top-answer .score{
+    padding: 3px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.top-answer .score.votes-up{
+    padding: 3px 15px;
+    color: #48A868;
+    border: 1px solid #48A868;
+}
+
+.top-answer .score.votes-down{
+    padding: 3px 15px;
+    color: rgb(228, 78, 67);
+    border: 1px solid rgb(228, 78, 67);
+}
+
+.top-answer .score.best-answer{
+    padding: 3px 15px;
+    background-color: #48A868;
+    color: white;
+}
+
+.top-tags{
+    padding-top: 20px;
+}
+
+.top-tags p{
+    display: inline;
+}
+
+.top-tags .score{
+    padding: 3px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.activity-tab a{
+    color: #808080;
+    padding: 3px 6px;
+}
+
+.activity-tab a:hover{
+    color: #808080;
+    background-color: rgba(204, 204, 204, 0.199);
+    border-radius: 5px;
+}
+
+.activity-tab a.active{
+    color: white;
+    background-color: #17A2B8;
+    border-radius: 5px;
+}
+
+.summary a{
+    color: #808080;
+}
+
+.sub-summary{
+    padding: 15px;
+}
+
+.summary a .card:hover{
+    color: #17A2B8;
+    background-color: rgba(204, 204, 204, 0.123);
+}
+
+.question-box p{
+    padding-top: 20px;
+}
+
+.user-question{
+    padding-top: 20px;
+}
+
+.user-question a{
+    padding-left: 8px;
+}
+
+.user-question p{
+    display: inline;
+}
+
+.user-question .score{
+    padding: 3px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.user-question .score.votes-up{
+    padding: 3px 15px;
+    color: #48A868;
+    border: 1px solid #48A868;
+}
+
+.user-question .score.votes-down{
+    padding: 3px 15px;
+    color: rgb(228, 78, 67);
+    border: 1px solid rgb(228, 78, 67);
+}
+
+.user-question .score.solved{
+    padding: 3px 15px;
+    background-color: #48A868;
+    color: white;
+}
+
+.answer-box p{
+    padding-top: 20px;
+}
+
+.user-answer{
+    padding-top: 20px;
+}
+
+.user-answer a{
+    padding-left: 8px;
+}
+
+.user-answer p{
+    display: inline;
+}
+
+.user-answer .score{
+    padding: 3px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.user-answer .score.votes-up{
+    padding: 3px 15px;
+    color: #48A868;
+    border: 1px solid #48A868;
+}
+
+.user-answer .score.votes-down{
+    padding: 3px 15px;
+    color: rgb(228, 78, 67);
+    border: 1px solid rgb(228, 78, 67);
+}
+
+.user-answer .score.best-answer{
+    padding: 3px 15px;
+    background-color: #48A868;
+    color: white;
+}
+
+.user-question-votes{
+    padding-top: 20px;
+}
+
+.user-question-votes a{
+    padding-left: 8px;
+}
+
+.user-question-votes p{
+    display: inline;
+}
+
+.user-question-votes .score{
+    padding: 3px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.user-question-votes .score.votes-up{
+    padding: 3px 15px;
+    color: #48A868;
+    border: 1px solid #48A868;
+}
+
+.user-question-votes .score.votes-down{
+    padding: 3px 15px;
+    color: rgb(228, 78, 67);
+    border: 1px solid rgb(228, 78, 67);
+}
+
+.user-question-votes .score.solved{
+    padding: 3px 15px;
+    background-color: #48A868;
+    color: white;
+}
+
+.user-answer-votes{
+    padding-top: 20px;
+}
+
+.user-answer-votes a{
+    padding-left: 8px;
+}
+
+.user-answer-votes p{
+    display: inline;
+}
+
+.user-answer-votes .score{
+    padding: 3px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.user-answer-votes .score.votes-up{
+    padding: 3px 15px;
+    color: #48A868;
+    border: 1px solid #48A868;
+}
+
+.user-answer-votes .score.votes-down{
+    padding: 3px 15px;
+    color: rgb(228, 78, 67);
+    border: 1px solid rgb(228, 78, 67);
+}
+
+.user-answer-votes .score.best-answer{
+    padding: 3px 15px;
+    background-color: #48A868;
+    color: white;
+}
+
+.comment-box p{
+    padding-top: 20px;
+}
+
+.user-comment{
+    padding-top: 20px;
+}
+
+.user-comment p{
+    display: inline;
+}
+
+.likes-question-box p{
+    padding-top: 16px;
+}
+
+.user-likes-question{
+    padding-top: 20px;
+}
+
+.user-likes-question a{
+    padding-left: 8px;
+}
+
+.user-likes-question p{
+    display: inline;
+}
+
+.user-likes-question .score{
+    padding: 3px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.user-likes-question .score.votes-up{
+    padding: 3px 15px;
+    color: #48A868;
+    border: 1px solid #48A868;
+}
+
+.user-likes-question .score.votes-down{
+    padding: 3px 15px;
+    color: rgb(228, 78, 67);
+    border: 1px solid rgb(228, 78, 67);
+}
+
+.user-likes-question .score.solved{
+    padding: 3px 15px;
+    background-color: #48A868;
+    color: white;
+}
+
+.likes-answer-box p{
+    padding-top: 16px;
+}
+
+.user-likes-answer{
+    padding-top: 20px;
+}
+
+.user-likes-answer a{
+    padding-left: 8px;
+}
+
+.user-likes-answer p{
+    display: inline;
+}
+
+.user-likes-answer .score{
+    padding: 3px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.user-likes-answer .score.votes-up{
+    padding: 3px 15px;
+    color: #48A868;
+    border: 1px solid #48A868;
+}
+
+.user-likes-answer .score.votes-down{
+    padding: 3px 15px;
+    color: rgb(228, 78, 67);
+    border: 1px solid rgb(228, 78, 67);
+}
+
+.user-likes-answer .score.best-answer{
+    padding: 3px 15px;
+    background-color: #48A868;
+    color: white;
+}
+
+
+
+/* ================================= */
+/* ========== leaderboard ========== */
+/* ================================= */
+.leaderboard .rank h5{
+    color: rgb(6, 211, 6);
+}
+
+.leaderboard .detail{
+    padding-top: 24px;
+}
+
+.leaderboard{
+    padding: 0;
+    margin-top: 48px;
+}
+
+.leaderboard .card{
+    margin-bottom: 24px;
+}
+
+.leaderboard .detail a{
+    font-size: 16px;
+}
+
+.leaderboard .detail img{
+    margin-bottom: 5px;
+}
+
+.leaderboard .trophy{
+    padding-top: 30px;
+}
+
+.leaderboard .rank-1.fa-solid{
+    font-size: 35px;
+    color: hsl(48,100%,50%);
+}
+
+.leaderboard .rank-2.fa-solid{
+    font-size: 35px;
+    color: hsl(210,6%,72%);
+}
+
+.leaderboard .rank-3.fa-solid{
+    font-size: 35px;
+    color: hsl(28,38%,67%);
+}
+
+.leaderboard .medal.fa-solid{
+    font-size: 35px;
+    color: hsl(358,70%,70%);
+    padding-left: 2px;
+}
+
+
+
+
+/* ============================ */
+/* ========== footer ========== */
+/* ============================ */
+footer{
+    padding-top: 40px;
+    background-color: rgb(59, 59, 59);
+}
+
+footer img{
+    filter: grayscale(100%);
+    margin-bottom: 7px;
+    width: 40px;
+}
+
+footer h5{
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    color: #808080;
+}
+
+footer .logo p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer h6{
+    font-size: 16px;
+    font-weight: 600;
+    color: #808080;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+footer .copyright{
+    margin-top: 80px;
+}
+
+footer .contribute{
+    margin-top: 16px;
+}
+
+
+

@@ -1,0 +1,1175 @@
+@media (max-width:576px) {
+
+    /* ============== */
+    /* === navbar === */
+    /* ============== */
+    .navbar .custom-menu{
+        display: inline-block;
+    }
+
+    .navbar-brand{
+        padding-left: 10px;
+    }
+
+    .navbar-brand img{
+        width: 25px;
+        margin-bottom: 4px;
+    }
+
+    .navbar-nav img{
+        width: 25px;
+        height: 25px;
+        margin-bottom: 4px;
+    }
+
+    .navbar-nav a.user{
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .nav-item{
+        padding-bottom: 5px;
+    }
+
+    .nav-item a.login{
+        font-size: 14px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .nav-item a.signup{
+        font-size: 14px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+
+
+    /* ============ */
+    /* === home === */
+    /* ============ */
+    .home{
+        padding-top: 100px;
+    }
+
+    .home h1{
+        font-size: 32px;
+    }
+
+    .home p{
+        font-size: 10px;
+    }
+
+    .home a{
+        padding: 7px 15px;
+        font-size: 12px;
+        border-radius: 50px;
+        font-weight: 500;
+        margin-right: 4px;
+    }
+
+    .home-image img{
+        width: 300px;
+        margin-left: 13px;
+    }
+
+
+
+    /* ==================== */
+    /* === ask question === */
+    /* ==================== */
+    .ask-question h5{
+        font-size: 16px;
+    }
+
+    .ask-question .alert-danger p{
+        font-size: 12px;
+    }
+
+    .ask-question .invalid-feedback{
+        font-size: 10px;
+    }
+
+    .ask-question form label{
+        font-size: 12px;
+    }
+
+    .ask-question form p.ask-description-label{
+        font-size: 8px;
+    }
+
+    .ask-question form input::placeholder{
+        font-size: 12px;
+    }
+
+    .ask-question form input{
+        font-size: 12px;
+    }
+
+    .ask-question .press-space p{
+        font-size: 12px;
+    }
+
+    .ask-question .tag-info p{
+        font-size: 12px;
+    }
+
+    .ask-question .tag-result span i{
+        font-size: 12px;
+    }
+
+    .ask-question .tag-result span{
+        font-size: 12px;
+    }
+
+    .ask-question form button{
+        font-size: 12px;
+    }
+
+    .most-used-tags .card{
+        margin-top: 0;
+    }
+
+    .most-used-tags .card.edit{
+        margin-top: 0;
+    }
+
+
+
+    /* ====================== */
+    /* === question index === */
+    /* ====================== */
+    .question-ask h3{
+        font-size: 20px;
+        margin-top: 3px;
+    }
+
+    .question-ask h5 a{
+        font-size: 12px;
+    }
+
+    p.search-result code{
+        font-size: 14px;
+    }
+
+    .question-total p{
+        font-size: 10px;
+    }
+
+    .question-filter a{
+        padding-top: 4px;
+        font-size: 8px;
+        padding-left: 0;
+    }
+
+    .question-content .detail-question{
+        display: flex;
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+
+    .question-content .detail-question p{
+        font-size: 10px;
+        padding: 0 5px;
+    }
+
+    .question-content .detail-question p:nth-child(1){
+        padding-left: 0;
+    }
+
+    .question-content .detail-question p:nth-child(2){
+        margin: 0;
+    }
+
+    .question-content .detail-question p i.fa-solid.fa-check{
+        font-size: 10px;
+    }
+
+    .question-content .the-question p{
+        font-size: 12px;
+    }
+
+    .question-content .the-question p.question-title{
+        font-size: 16px;
+    }
+
+    .question-content .the-question .question-tag a{
+        font-size: 12px;
+    }
+
+    .question-content .user-info{
+        font-size: 10px;
+    }
+
+    .question-content .user-info p img{
+        width: 10px;
+        height: 10px;
+    }
+
+    .question-content .user-info .m-0.pl-4.trophy.badges{
+        padding-left: 11px !important;
+    }
+
+    .question-content .user-info p.trophy.badges i.fa-solid{
+        font-size: 8px;
+    }
+
+    .most-used-tags{
+        margin-top: 30px;
+    }
+
+    .most-used-tags h6{
+        font-size: 14px;
+    }
+
+    .most-used-tags .tag a{
+        font-size: 12px;
+    }
+
+    .most-used-tags .tag span{
+        font-size: 12px;
+    }
+
+
+
+    /* ===================== */
+    /* === question show === */
+    /* ===================== */
+    .question-show{
+        margin-bottom: 0;
+    }
+
+    .question-main-title h3{
+        font-size: 16px;
+    }
+
+    .question-main-title p{
+        font-size: 10px;
+        padding-right: 10px;
+    }
+
+    .question-option{
+        padding-top: 20px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .question-option ul{
+        margin-right: 120px;
+    }
+
+    .question-option .question-like i.fa-regular.fa-heart{
+        font-size: 15px;
+    }
+
+    .question-option .question-like i.fa-solid.fa-heart{
+        font-size: 15px;
+    }
+
+    .question-main{
+        font-size: 12px;
+    }
+
+    .question-main .question-body{
+        padding-left: 7px;
+    }
+
+    .question-main .question-votes button{
+        font-size: 10px;
+    }
+
+    .question-main .question-votes h5{
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .question-main .question-tag a{
+        font-size: 12px;
+    }
+
+    .question-share{
+        padding: 0 15px 0 15px;
+        font-size: 14px;
+    }
+
+    .question-share a img{
+        width: 16px;
+    }
+    
+    .question-user{
+        font-size: 12px;
+    }
+
+    .question-user p.question-date{
+        font-size: 10px;
+    }
+
+    .question-user p.trophy.badges i.fa-solid{
+        font-size: 10px;
+    }
+
+    .question-user .m-0.pl-4.trophy.badges{
+        padding-left: 17px !important;
+    }
+
+    .question-user img{
+        width: 13px;
+        height: 13px;
+        margin-bottom: 5px;
+    }
+
+    .question-report{
+        font-size: 8px;
+        padding-left: 0;
+    }
+
+
+
+    /* ============== */
+    /* === answer === */
+    /* ============== */
+    .answer-count p{
+        font-size: 14px;
+    }
+
+    .answer-main{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .answer-main .this-answer{
+        padding: 0 12px 0 10px;
+    }
+
+    .answer-main .answer-votes{
+        padding: 0;
+    }
+
+    .answer-main .answer-votes button{
+        font-size: 10px;
+    }
+
+    .answer-main .answer-votes h5{
+        font-size: 16px;
+        padding-left: 4px;
+    }
+
+    .answer-main .answer-option{
+        padding: 0;
+    }
+
+    .answer-option .answer-like i.fa-solid.fa-ellipsis-vertical{
+        font-size: 15px;
+    }
+
+    .answer-option .answer-like i.fa-regular.fa-heart{
+        font-size: 15px;
+    }
+
+    .answer-option .answer-like i.fa-solid.fa-heart{
+        font-size: 15px;
+    }
+
+    .answer-option ul{
+        margin-right: 125px;
+    }
+
+    .best-answer{
+        margin-top: -15px;
+    }
+
+    .best-answer .fa-solid.fa-check{
+        font-size: 25px;
+    }
+
+    .answer-report-link{
+        padding-left: 20px;
+    }
+
+    .answer-report-link a{
+        font-size: 8px;
+    }
+
+    .answer-user{
+        display: flex;
+        justify-content: end;
+        font-size: 12px;
+    }
+
+    .answer-user p.answer-date{
+        font-size: 10px;
+    }
+
+    .answer-user .m-0.pl-4.trophy.badges{
+        padding-left: 17px !important;
+    }
+
+    .answer-user p.trophy.badges i.fa-solid{
+        font-size: 10px;
+    }
+
+    .comment p.trophy.badges i.fa-solid{
+        font-size: 10px;
+    }
+
+    .answer-user img{
+        width: 13px;
+        height: 13px;
+        margin-bottom: 3px;
+    }
+
+    .answer-comment{
+        padding-left: 0;
+    }
+
+    .answer-comment form textarea{
+        height: 50px;
+    }
+
+    .answer-comment form textarea::placeholder{
+        font-size: 12px;
+    }
+
+    .answer-comment form .comment-form{
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .answer-comment form button{
+        font-size: 12px;
+    }
+
+    .answer-comment .see-all-comment a{
+        font-size: 12px;
+    }
+
+    .answer-comment .comment{
+        font-size: 12px;
+    }
+
+    .answer-comment p a{
+        font-size: 12px;
+    }
+
+    .answer-comment p img{
+        width: 13px;
+        height: 13px;
+        margin-bottom: 5px;
+    }
+
+    .answer-comment p span{
+        font-size: 10px;
+    }
+
+    .your-answer h5{
+        font-size: 16px;
+    }
+
+    .your-answer form button{
+        font-size: 12px;
+    }
+
+    .your-answer .signup-or-login h5{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .your-answer .signup-or-login h5 a{
+        font-size: 14px;
+    }
+
+    .your-answer .signup-or-login a{
+        font-size: 10px;
+    }
+
+    .your-answer .signup-or-login a img{
+        width: 10px;
+        margin-top: 3px;
+    }
+
+    .your-answer .as-guest h5{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+
+    .your-answer .as-guest label{
+        font-size: 10px;
+    }
+
+    .your-answer .as-guest p{
+        font-size: 8px;
+        padding: 0;
+    }
+
+    .your-answer .as-guest input.form-control{
+        height: 30px !important;
+        font-size: 12px;
+    }
+
+    .your-answer .as-guest input::placeholder{
+        font-size: 12px;
+    }
+
+    .your-answer .login-button{
+        margin-bottom: 8px;
+    }
+
+    .related{
+        margin-top: 30px;
+        font-size: 12px;
+    }
+
+    .related .question-interested h6{
+        font-size: 14px;
+    }
+
+    .related .question-interested .top-question p.score{
+        padding: 2px 10px;
+    }
+
+    .related .question-interested .top-question a{
+        padding-left: 2px;
+    }
+
+    .related .most-used-tags{
+        margin: 0;
+    }
+
+
+    /* =============== */
+    /* === comment === */
+    /* =============== */
+    .back a h6{
+        font-size: 12px;
+    }
+
+    .answer-comment h6{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .related .card{
+        margin-top: 0;
+    }
+
+    .answer-comment .comment{
+        padding: 8px 0;
+    }
+
+    .answer-comment form{
+        margin-top: 24px;
+    }
+
+    .answer-comment form{
+        font-size: 10px;
+    }
+
+
+
+    /* ============== */
+    /* === report === */
+    /* ============== */
+    .report-box{
+        font-size: 12px;
+    }
+
+    .report-box h6{
+        font-size: 14px;
+    }
+
+    .report-box .report .card-body{
+        padding: 10px;
+    }
+
+    .report-box .report .card-body form textarea{
+        height: 60px;
+    }
+
+    .report-box .report .card-body form button{
+        font-size: 12px;
+    }
+
+    .report-box .report .card-body form a{
+        font-size: 12px;
+    }
+
+    .report-callback h2{
+        font-size: 30px;
+    }
+
+    .report-callback h3{
+        font-size: 20px;
+    }
+
+    .report-callback h6{
+        font-size: 12px;
+    }
+
+    .report-done a{
+        font-size: 12px;
+    }
+
+
+
+    /* ================ */
+    /* === all tags === */
+    /* ================ */
+    .all-tags h3{
+        font-size: 20px;
+    }
+
+    .all-tags p{
+        font-size: 8px;
+    }
+
+    .tags{
+        margin-top: 20px;
+    }
+
+    .tags .this-tag{
+        padding: 0 10px;
+        margin-bottom: 12px;
+    }
+
+    .tags .tag a{
+        font-size: 12px;
+    }
+
+    .tags .tag p{
+        font-size: 10px;
+    }
+
+    .question-ask h3.tag-title a.tag-name{
+        font-size: 12px;
+    }
+
+
+    /* =================== */
+    /* === leaderboard === */
+    /* =================== */
+    .leaderboard-page h3{
+        font-size: 20px;
+    }
+
+    .leaderboard-page p{
+        font-size: 8px;
+    }
+
+    .leaderboard-page .leaderboard{
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .leaderboard-page .leaderboard .card{
+        margin-bottom: 12px;
+    }
+
+    .leaderboard-page .leaderboard .rank h5{
+        font-size: 14px;
+    }
+
+    .leaderboard-page .leaderboard .detail{
+        padding-top: 16px;
+    }
+
+    .leaderboard-page .leaderboard .detail img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .leaderboard-page .leaderboard .detail a{
+        font-size: 14px;
+    }
+
+    .leaderboard-page .leaderboard .detail p{
+        font-size: 12px;
+    }
+
+    .leaderboard-page .leaderboard .trophy{
+        padding-top: 25px;
+    }
+
+    .leaderboard-page .leaderboard .trophy i{
+        font-size: 30px;
+    }
+
+
+
+    /* =============== */
+    /* === profile === */
+    /* =============== */
+    .profile-picture img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .profile-picture .profile-name{
+        margin-top: 20px;
+    }
+
+    .profile-picture .profile-name h3{
+        font-size: 18px;
+    }
+
+    .profile-picture .profile-name p{
+        font-size: 12px;
+    }
+
+    .profile-picture .update-profile a{
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .profile-index .profile-activity-button{
+        margin: 12px 0;
+    }
+
+    .profile-index .profile-activity-button a{
+        font-size: 12px;
+    }
+
+    .profile-index .stats h5{
+        font-size: 16px;
+    }
+
+    .profile-index .badges-box{
+        padding: 0;
+        margin-top: 24px;
+    }
+
+    .profile-index .badges-box h5{
+        font-size: 16px;
+    }
+
+    .profile-index .badges-box p{
+        font-size: 12px;
+    }
+
+    .profile-index .badges-box .badges i{
+        font-size: 35px;
+        padding-left: 7px;
+    }
+
+    .profile-index .badges-box .badges-detail h5{
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+
+    .profile-index .badges-box .badges-detail p{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .profile-index .badges-box .trophy i{
+        font-size: 35px;
+    }
+
+    .profile-index .top-question-box{
+        padding: 0;
+    }
+
+    .profile-index .top-question-box h5{
+        font-size: 16px;
+    }
+
+    .profile-index .top-question-box p{
+        font-size: 12px;
+    }
+
+    .profile-index .top-question p{
+        font-size: 8px;
+    }
+
+    .profile-index .top-question p.score{
+        padding: 2px 10px;
+        font-size: 12px;
+    }
+
+    .profile-index .top-question a{
+        font-size: 12px;
+        padding-left: 4px;
+    }
+
+    .profile-index .top-answer-box{
+        padding: 0;
+    }
+
+    .profile-index .top-answer-box h5{
+        font-size: 16px;
+    }
+
+    .profile-index .top-answer-box p{
+        font-size: 12px;
+    }
+
+    .profile-index .top-answer p{
+        font-size: 8px;
+    }
+
+    .profile-index .top-answer p.score{
+        padding: 2px 10px;
+        font-size: 12px;
+    }
+
+    .profile-index .top-answer a{
+        font-size: 12px;
+        padding-left: 4px;
+    }
+
+    .profile-activity .profile-activity-button{
+        margin: 12px 0;
+    }
+
+    .profile-activity .summary-box{
+        padding: 0;
+    }
+
+    .profile-activity .summary-box h5{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .profile-activity .summary .sub-summary{
+        padding: 15px;
+    }
+
+    .question-box{
+        padding: 0;
+    }
+
+    .question-box h5{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .question-box p{
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .question-box .user-question p{
+        font-size: 8px;
+    }
+
+    .question-box .user-question p.score{
+        padding: 2px 10px;
+        font-size: 12px;
+    }
+
+    .question-box .user-question a{
+        font-size: 12px;
+        padding-left: 4px;
+    } 
+
+    .answer-box{
+        padding: 0;
+    }
+
+    .answer-box h5{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .answer-box p{
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .answer-box .user-answer p{
+        font-size: 8px;
+    }
+
+    .answer-box .user-answer p.score{
+        padding: 2px 10px;
+        font-size: 12px;
+    }
+
+    .answer-box .user-answer a{
+        font-size: 12px;
+        padding-left: 4px;
+    } 
+
+    .comment-box{
+        padding: 0;
+    }
+
+    .comment-box h5{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .comment-box p{
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .comment-box .user-comment p{
+        font-size: 8px;
+    }
+
+    .comment-box .user-comment a{
+        font-size: 12px;
+    } 
+
+    .votes-box{
+        padding: 0;
+    }
+
+    .question-votes-box h5{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .question-votes-box p{
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .question-votes-box .user-question-votes p{
+        font-size: 8px;
+    }
+
+    .question-votes-box .user-question-votes p.score{
+        padding: 2px 10px;
+        font-size: 12px;
+    }
+
+    .question-votes-box .user-question-votes a{
+        font-size: 12px;
+        padding-left: 4px;
+    } 
+
+    .answer-votes-box h5{
+        font-size: 16px;
+    }
+
+    .answer-votes-box p{
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .answer-votes-box .user-answer-votes p{
+        font-size: 8px;
+    }
+
+    .answer-votes-box .user-answer-votes p.score{
+        padding: 2px 10px;
+        font-size: 12px;
+    }
+
+    .answer-votes-box .user-answer-votes a{
+        font-size: 12px;
+        padding-left: 4px;
+    } 
+
+    .likes-question-box{
+        padding: 0;
+    }
+
+    .likes-question-box h5{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .likes-question-box p{
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .likes-question-box .user-likes-question p{
+        font-size: 8px;
+    }
+
+    .likes-question-box .user-likes-question p.score{
+        padding: 2px 10px;
+        font-size: 12px;
+    }
+
+    .likes-question-box .user-likes-question a{
+        font-size: 12px;
+        padding-left: 4px;
+    } 
+
+    .likes-answer-box{
+        padding: 0;
+    }
+
+    .likes-answer-box h5{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .likes-answer-box p{
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .likes-answer-box .user-likes-answer p{
+        font-size: 8px;
+    }
+
+    .likes-answer-box .user-likes-answer p.score{
+        padding: 2px 10px;
+        font-size: 12px;
+    }
+
+    .likes-answer-box .user-likes-answer a{
+        font-size: 12px;
+        padding-left: 4px;
+    } 
+
+
+
+
+    /* ====================== */
+    /* === update profile === */
+    /* ====================== */
+    .update-profile-box h3{
+        font-size: 16px;
+    }
+
+    .update-profile-box img{
+        width: 90px;
+        height: 90px;
+        margin-left: 4px;
+    }
+
+    .update-profile-box .change-picture{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .update-profile-box .change-picture-button{
+        padding-left: 0;
+    }
+
+    .update-profile-box label{
+        font-size: 12px;
+    }
+
+    .update-profile-box .update-profile{
+        margin-top: -20px;
+    }
+
+    .update-profile-box .update-profile form input{
+        padding: 3px 12px;
+        font-size: 12px;
+    }
+
+    .update-profile-box .update-profile .is-invalid{
+        font-size: 10px;
+    }
+
+    .update-profile-box .update-profile a{
+        font-size: 12px;
+    }
+
+    .update-profile-box .update-profile button{
+        font-size: 12px;
+    }
+
+    .error-change-password .card-body{
+        padding: 10px;
+    }
+
+    .error-change-password h5{
+        font-size: 14px;
+    }
+
+    .error-change-password p{
+        font-size: 12px;
+    }
+
+    .error-change-password p.card-text{
+        margin-bottom: 8px;
+    }
+
+    .error-change-password a{
+        font-size: 12px;
+    }
+
+    .change-password-box h3{
+        font-size: 16px;
+    }
+
+    .change-password-box .change-password form label{
+        font-size: 12px;
+    }
+
+    .change-password-box .change-password form a{
+        font-size: 12px;
+    }
+
+    .change-password-box .change-password form button{
+        font-size: 12px;
+    }
+
+    .change-password-box .change-password .is-invalid{
+        font-size: 10px;
+    }
+
+
+
+
+    /* ================== */
+    /* === pagination === */
+    /* ================== */
+    .pagination{
+        font-size: 12px;
+    }
+
+    .pagination li a.page-link{
+        padding: 5px;
+    }
+
+    .pagination span.page-link{
+        padding: 5px;
+    }
+
+
+
+    /* ============== */
+    /* === footer === */
+    /* ============== */
+    footer{
+        padding-top: 20px;
+    }
+
+    footer img{
+        filter: grayscale(100%);
+        margin-bottom: 3px;
+        width: 10px;
+    }
+    
+    footer h5{
+        display: inline;
+        font-size: 10px;
+        font-weight: 600;
+        color: #808080;
+    }
+    
+    footer .logo p{
+        font-size: 5px;
+        font-weight: 600;
+    }
+    
+    footer h6{
+        font-size: 6px;
+        font-weight: 600;
+        color: #808080;
+    }
+    
+    footer p{
+        font-size: 6px;
+    }
+    
+    footer .copyright{
+        margin-top: 15px;
+    }
+
+    footer .contribute{
+        margin-top: 7px;
+    }
+}
