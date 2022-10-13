@@ -14,6 +14,12 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        //
+        User::create([
+            'name' => 'admin',
+            'username' => 'admin',
+            'email' => 'admin@frage.com',
+            'password' => 'password',
+            'isAdmin' => true
+        ]);
     }
 }
